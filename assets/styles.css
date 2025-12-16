@@ -174,7 +174,9 @@ body.dark-theme {
 .section {
   padding: 4.5rem 0 1rem;
 }
-
+main {
+  overflow: hidden;
+}
 .section-title {
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-2-5);
@@ -435,13 +437,13 @@ nav {
 }
 
 .new-overlay {
-  width: 340px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
   background-color: var(--first-color);
   border-radius: 50%;
   position: absolute;
-  top: -6rem;
-  left: -0.7rem;
+  top: -5rem;
+  left: -0.65rem;
   z-index: 0;
 }
 
