@@ -1,7 +1,7 @@
-/*=============== GOOGLE FONTS ===============*/
+/* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-/*=============== VARIABLES CSS ===============*/
+/* Variables CSS */
 :root {
   --header-height: 3.5rem;
 
@@ -15,7 +15,7 @@
   --body-color: #fff;
   --container-color: #fff;
 
-  /*========== Font and typography ==========*/
+  /* Fonts and Typography */
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
 
@@ -27,11 +27,11 @@
   --small-font-size: 0.813rem;
   --smaller-font-size: 0.75rem;
 
-  /*========== Font weight ==========*/
+  /* Font weight */
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margenes Bottom ==========*/
+  /* Margins Bottom */
   /*.5rem = 8px | 1rem = 16px ...*/
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
@@ -40,7 +40,7 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
 
-  /*========== z index ==========*/
+  /* z-index */
   --z-tooltip: 10;
   --z-fixed: 100;
 }
@@ -58,7 +58,7 @@
   }
 }
 
-/*=============== BASE ===============*/
+/* Base */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -80,7 +80,7 @@ body {
   margin: var(--header-height) 0 0 0;
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: 0.4s; /*For animation dark mode*/
+  transition: 0.4s;
 }
 
 h1,
@@ -110,7 +110,7 @@ button {
   outline: none;
 }
 
-/*=============== THEME ===============*/
+/* Nav buttons */
 .nav-btns {
   display: flex;
   align-items: center;
@@ -123,7 +123,7 @@ button {
   cursor: pointer;
 }
 
-/*========== Variables Dark theme ==========*/
+/* Dark theme */
 body.dark-theme {
   --title-color: hsl(355, 4%, 95%);
   --text-color: hsl(355, 4%, 75%);
@@ -131,10 +131,7 @@ body.dark-theme {
   --container-color: hsl(355, 16%, 16%);
 }
 
-/*========== 
-    Color changes in some parts of 
-    the website, in dark theme 
-==========*/
+/* Dark theme shadows */
 .dark-theme .scroll-header,
 .dark-theme .nav-menu {
   box-shadow: 0 2px 4px hsla(0, 0%, 4%, 0.3);
@@ -160,7 +157,7 @@ body.dark-theme {
   background: hsl(355, 8%, 30%);
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+/* REUSABLE CSS CLASSES */
 .container {
   max-width: 968px;
   margin-left: var(--mb-1-5);
@@ -174,16 +171,18 @@ body.dark-theme {
 .section {
   padding: 4.5rem 0 1rem;
 }
+
 main {
   overflow: hidden;
 }
+
 .section-title {
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-2-5);
   text-align: center;
 }
 
-/*=============== HEADER ===============*/
+/* HEADER */
 header {
   width: 100%;
   background-color: var(--body-color);
@@ -191,10 +190,10 @@ header {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  transition: 0.4s; /*For animation dark mode*/
+  transition: 0.4s;
 }
 
-/*=============== NAV ===============*/
+/* NAV */
 nav {
   height: var(--header-height);
   display: flex;
@@ -287,7 +286,7 @@ nav {
   color: var(--first-color);
 }
 
-/*=============== HOME ===============*/
+/* Home */
 .home-container {
   padding-top: 1.5rem;
   row-gap: 1.5rem;
@@ -314,7 +313,7 @@ nav {
   margin-bottom: var(--mb-2-5);
 }
 
-/*=============== BUTTONS ===============*/
+/* BUTTONS */
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -329,7 +328,7 @@ nav {
   background-color: var(--first-color-alt);
 }
 
-/*=============== GIVING ===============*/
+/* GIVING */
 .giving-container {
   grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem 1.5rem;
@@ -357,7 +356,7 @@ nav {
   transform: translateY(-0.25rem);
 }
 
-/*=============== CELEBRATE ===============*/
+/* CELEBRATE */
 .celebrate-container {
   row-gap: 1rem;
 }
@@ -379,7 +378,7 @@ nav {
   justify-self: center;
 }
 
-/*=============== GIFT ===============*/
+/* GIFT */
 .gift-container {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
@@ -423,7 +422,7 @@ nav {
   transform: translateY(-0.25rem);
 }
 
-/*=============== NEW ===============*/
+/* NEW */
 .new-card {
   position: relative;
   width: 230px;
@@ -488,8 +487,7 @@ nav {
   background-color: var(--first-color);
 }
 
-
-/*=============== MESSAGE ===============*/
+/* MESSAGE */
 .message-container {
   row-gap: 3rem;
   background-color: var(--first-color);
@@ -532,7 +530,7 @@ nav {
   transform: rotate(15deg);
 }
 
-/*=============== FOOTER ===============*/
+/* FOOTER */
 footer {
   overflow: hidden;
 }
@@ -612,7 +610,7 @@ footer {
   right: -4rem;
 }
 
-/*=============== SCROLL UP ===============*/
+/* SCROLL UP */
 .scrollup {
   position: fixed;
   right: 1rem;
@@ -641,7 +639,7 @@ footer {
   bottom: 3rem;
 }
 
-/*=============== BREAKPOINTS ===============*/
+/* BREAKPOINTS */
 /* For small devices */
 @media screen and (max-width: 320px) {
   .container {
