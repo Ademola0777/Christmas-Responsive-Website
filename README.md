@@ -1,5 +1,5 @@
 # Responsive Christmas-Themed Website 🎄
-## Watch on Youtube:[(www.youtube.com/@khaleed_dev](https://youtu.be/XxBGQBUDjAU?si=XxwNLYO5V1v1HXJq))
+## Watch on Youtube:[(www.youtube.com/@khaleed_dev](https://youtu.be/iYDTrmLJIiM))
 ## Responsive Christmas-Themed Website
 Fully responsive built with a mobile-first approach and optimized for desktop.
 
@@ -12,4 +12,5 @@ Fully responsive built with a mobile-first approach and optimized for desktop.
 
 💖 Join the channel to see more videos like this [Khaleed.Dev](www.youtube.com/@khaleed_dev)
 
-![christmas-20min](https://github.com/user-attachments/assets/25ae3802-2ed3-44a0-b817-6797ee09da6d)
+![1](https://github.com/user-attachments/assets/e91a47af-4216-4ac4-a32b-aeabbe727e2b)
+
